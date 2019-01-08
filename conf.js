@@ -1,7 +1,7 @@
 /*jslint node: true */
 "use strict";
 
-exports.clientName = 'headless';
+exports.clientName = 'hub';
 //exports.minClientVersion = '2.2.0';
 
 // https://console.developers.google.com
