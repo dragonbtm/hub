@@ -1,31 +1,31 @@
 INSERT INTO bots (name, description, pairing_code) VALUES (
-	'Transition bot', 
+	'Transition bot',
 	'Allows you to link your Bitcoin and bytes addresses for participation in bytes distribution.',
 	'A2WMb6JEIrMhxVk+I0gIIW1vmM3ToKoLkNF8TqUV5UvX@bytes.org/bb#0000'
 );
 INSERT INTO bots (name, description, pairing_code) VALUES (
-	'Byte-BTC exchange', 
-	'Buy or sell Bytes for BTC instantly. Advanced users can offer their price, post pending orders and see the order book.', 
+	'Byte-BTC exchange',
+	'Buy or sell Bytes for BTC instantly. Advanced users can offer their price, post pending orders and see the order book.',
 	'Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@bytes.org/bb#0000'
 );
 INSERT INTO bots (name, description, pairing_code) VALUES (
-	'Flight delays oracle', 
-	'If you bought a P2P insurance against flight delays and your flight was delayed, chat with this oracle to have it post the data about your flight. After the data is posted, you can unlock the insurance contract and sweep its funds.', 
+	'Flight delays oracle',
+	'If you bought a P2P insurance against flight delays and your flight was delayed, chat with this oracle to have it post the data about your flight. After the data is posted, you can unlock the insurance contract and sweep its funds.',
 	'AuP4ngdv0S/rok+IaW1q2D6ye72eXLl3h+CqXNXzkBXn@bytes.org/bb#0000'
 );
 INSERT INTO bots (name, description, pairing_code) VALUES (
-	'Sports oracle', 
-	'If you have a P2P betting contract with another user and you won, chat with this oracle to have it post the data about your football match. After the data is posted, you can unlock the betting contract and sweep its funds.', 
+	'Sports oracle',
+	'If you have a P2P betting contract with another user and you won, chat with this oracle to have it post the data about your football match. After the data is posted, you can unlock the betting contract and sweep its funds.',
 	'Ar1O7dGgkkcABYNAbShlY2Pbx6LmUzoyRh6F14vM0vTZ@bytes.org/bb#0000'
 );
 INSERT INTO bots (name, description, pairing_code) VALUES (
-	'BTC oracle', 
-	'This oracle posts Merkle Roots of all Bitcoin transactions in a block every time a new Bitcoin block is mined. You can use its data to P2P trade Bytes vs BTC. If you are receiving Bytes (sending bitcoins), chat with the oracle after sending your bitcoins to get the Merkle Proof of your Bitcoin transaction and unlock your bytes from the smart contract.', 
+	'BTC oracle',
+	'This oracle posts Merkle Roots of all Bitcoin transactions in a block every time a new Bitcoin block is mined. You can use its data to P2P trade Bytes vs BTC. If you are receiving Bytes (sending bitcoins), chat with the oracle after sending your bitcoins to get the Merkle Proof of your Bitcoin transaction and unlock your bytes from the smart contract.',
 	'A7C96Bhg4Gpb2Upw/Ky/YfGG8BKe5DjTiBuJFGAX50N1@bytes.org/bb#0000'
 );
 /*
 INSERT INTO bots (name, description, pairing_code) VALUES (
-	'Rosie bot', 
+	'Rosie bot',
 	'This is an open-source conversational AI, serving Rosie (chatbot base) through Pandorabots'' API. Without modifying the code, developers can serve any other AIML-compliant chatbot.
 
 Developer: Laurentiu-Andronache, https://github.com/Laurentiu-Andronache/bytes-chatbot-Rosie',
@@ -40,29 +40,29 @@ Developer: Peter Miklos, https://bytes.market',
 	'Ao2SRelXb23nTnom+KHhLIzK4nyk0WAlE3vRWk5K25Gg@bytes.org/bb#0000'
 );
 INSERT INTO bots (name, description, pairing_code) VALUES (
-	'Zork I game', 
+	'Zork I game',
 	'Play one of the earliest interactive fiction computer games developed between 1977 and 1979. The game unfolds in a maze-like dungeon, where the user must battle trolls and solve puzzles in order to find twenty trophies to bring back to the house outside which the game begins.
 
-Developer: Hyena', 
+Developer: Hyena',
 	'A/SCXz5tNuJDLuCO8PXpsfUoL7dCMBGnvSST7z0YPXjd@bytes.org/bb#0000'
 );
 INSERT INTO bots (name, description, pairing_code) VALUES (
-	'Slice&Dice MUD', 
+	'Slice&Dice MUD',
 	'Combining the elements of provably fair online gambling and text-based multi-user dungeons (MUDs), Slice&Dice Dungeon delivers a unique gaming experience for everyone. The player takes a role of a wandering dungeon inhabitant who delves into the cruel underground caverns with the primary goal of finding food and shelter. Doing so requires them to gamble on the tokens and to get into fights with other cave explorers as part of the endless struggle for survival.
 
-Developer: CoinGaming.io', 
+Developer: CoinGaming.io',
 	'Aka6qIh7Cc0FsdyWM/BRzye1ftDbcme5TzE88bI43P+/@bytes.org/bb#0000'
 );
 INSERT INTO bots (rank, name, description, pairing_code) VALUES (
 	1,
-	'Flight delay insurance', 
+	'Flight delay insurance',
 	'Buy insurance against flight delay. You get paid if your flight is delayed more than what you specify.  The quotes are based on real stats of delays of your flight, the bot charges only 5% above the probability of delay.  Insurance is based on smart contracts, you don''t need to trust the bot.
 
 Source code: https://github.com/bytes/flight-delays-insurance, fork and write your bot.',
 	'Ai8b8CdBxZkm6h1RVhYT7y6Scas/eNn1ccavU7dgHYqN@bytes.org/bb#0000'
 );
 INSERT INTO bots (name, description, pairing_code) VALUES (
-	'Poll bot', 
+	'Poll bot',
 	'Vote in polls.  The weight of your vote is proportional to your balance.
 
 Source code: https://github.com/bytes/poll-bot',
@@ -71,13 +71,13 @@ Source code: https://github.com/bytes/poll-bot',
 /*
 INSERT INTO bots (name, description, pairing_code) VALUES (
 	'Blackbytes Exchange BEEB (Trustful)',
-	'Instant buy and sell batches of Blackbytes 24/7. No need to find a peer anymore: the bot is the peer. Note that you are trusting the coins, as well as private histories of blackbytes, to the exchange operator.', 
+	'Instant buy and sell batches of Blackbytes 24/7. No need to find a peer anymore: the bot is the peer. Note that you are trusting the coins, as well as private histories of blackbytes, to the exchange operator.',
 	'AxV6ohKFORqIGfGqCZgjK1HlL8vBiNltcWWaI0Rc9yN+@bytes.fr/bb#0000'
 );
 */
 INSERT INTO bots (name, description, pairing_code) VALUES (
 	'Blackbyte Exchange (Semi-trustless)',
-	'Instantly exchange Blackbytes and Bytes or create your own orders in the book. It''s trustless when selling Blackbytes, meaning all users are always in control of their own Blackbytes, and trustful when buying. Need help or want to socialize? You can directly chat with many other users.', 
+	'Instantly exchange Blackbytes and Bytes or create your own orders in the book. It''s trustless when selling Blackbytes, meaning all users are always in control of their own Blackbytes, and trustful when buying. Need help or want to socialize? You can directly chat with many other users.',
 	'ApSicldzuDl675iiUyWdmO7pLl8MPgeuNg4qOr13EkNJ@bytes.org/bb#globalchat'
 );
 INSERT INTO bots (name, description, pairing_code) VALUES (
@@ -90,35 +90,35 @@ Source code: https://github.com/bytes/conditional-token-sale, you can use it to 
 INSERT INTO bots (name, description, pairing_code) VALUES (
     'Betting bot (Semi-trustless)',
     'Bet on sport fixtures by taking the trustless offers immediately available. Or be the bookmaker and develop a business by proposing competitive odds for popular events.
-    
+
 Developer: papabyte.com',
     'AnpzF9nVTV5JZXzlG2fSnA+8UmjFuBdbqU+rJchz3qcN@bytes.org/bb#0000'
 );
 INSERT INTO bots (name, description, pairing_code) VALUES (
     'Luckybytes Lottery (provably fair)',
     'An in app lottery in which you can play using your bytes Bytes. There are three different game modes to participate in. Win large amounts of Bytes depending on the number of players on the principle of "the winner takes all". All games are provably fair. Each lottey comes with a game and proof hash which lets a player validate and prove the results against manipulation.
-    
+
 Developer: pxrunes, https://lucky.byte-ball.com',
     'A5X5LT9HtUewgC6Zob3oRfoICNj34d44ZCRYmXnDmqdZ@bytes.org/bb#LuckyBytes'
 );
 INSERT INTO bots (name, description, pairing_code) VALUES (
     'TitanCoin ICO',
     'Invest in Titan Coin -- a new token pegged to the price of 1 kg of ilmenite concentrate. Ilmenite concentrate is the main raw material used for production of Titanium dioxide.
-    
+
 Project page and investor information: http://titan-coin.com',
     'AqXgqz9CIqi+pq9RKCVgs9wDBj+XMQdi4414XUjTFL3W@bytes.org/bb#0000'
 );
 INSERT INTO bots (name, description, pairing_code) VALUES (
     'bytes-Altcoin Exchange Bot',
     'Exchange over 60 altcoins to Bytes, Bytes to altcoins, or altcoins to altcoins. Receive your coins as fast as the network confirms your transaction. The fee is only 0.75%.  Powered by Changelly.
-    
+
 Developer: Robert Huber, http://bytes-exchange-bot.com',
     'AiAuuTYQgLL9JBdkpfXU3pjm2RZklmObGAKYB5gJioBG@bytes.org/bb#bytExchange'
 );
 INSERT INTO bots (name, description, pairing_code) VALUES (
    'CFD Trading (Trustful)',
    'Buy or sell contract for difference and try to take advantage when the price of a crypto-currency is moving up or moving down without owning it directly.
-   
+
 Developer: papabyte.com',
    'ArUEvvn+7tq0p6CbCqJtaVTSoDzX9Iot+Zd1bA40kcVB@bytes.org/bb#0000'
 );
@@ -131,7 +131,7 @@ INSERT INTO bots (rank, name, description, pairing_code) VALUES (
 INSERT INTO bots (name, description, pairing_code) VALUES (
    'Fun-coins faucet',
    'This bot gives out free Tangos, Tingos, Zangos and Zingos. These tokens have zero monetary value so you can practise textcoins and smart contracts with zero risk.
-   
+
 Developer: papabyte.com',
    'A0dDO/XuMzELLq4r7F3/QMB3JOJQpbq40lAeCFdAX7yU@bytes.org/bb#0000'
 );
@@ -256,4 +256,13 @@ INSERT INTO bots (rank, name, description, pairing_code) VALUES (
 
 If you refer new users to the draw and one of them wins, you also win.',
    'A2WMb6JEIrMhxVk+I0gIIW1vmM3ToKoLkNF8TqUV5UvX@bytes.org/bb#0000'
+);
+INSERT INTO bots (name, description, pairing_code) VALUES (
+   'Know-it-all Bot',
+   'This bot is all about user participation and giving gratitude using incentivized Q&A.  Users pose questions and add reward with bytes for faster replies, better answers and more importantly to give thanks to participants.  Bring in experts on any social platform using a simple link, vote for the right answer and both of you can get rewarded!
+
+This bot was first developed for Byteball Bot War in December 2018.
+
+Developer: Terence Lee, https://github.com/whoisterencelee/know-it-all-bot',
+   'Ai9tK3w0yQNvbR8kpQU5uOLRloQQXdFXJFFNZkdQN8fr@bytes.org/bb#0000'
 );

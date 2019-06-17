@@ -3,9 +3,10 @@
   "description": "Hub",
   "author": "hub",
   "version": "0.1.5",
-  "main": "starthub.js",
+  "main": "start.js",
   "keywords": [
     "hub",
+    "DAG",
     "messaging",
     "chat"
   ],
