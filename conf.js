@@ -25,7 +25,16 @@ exports.bLight = false;
 
 exports.HEARTBEAT_TIMEOUT = 300*1000;
 
-exports.storage = 'sqlite';
+exports.WS_PROTOCOL = 'ws://';
+
+exports.storage = 'mysql';
+
+exports.database = {
+	host:"localhost",
+	name:"hub",
+	user:"root",
+	password:"root"
+}
 
 
 exports.initial_witnesses = !process.env.testnet ? [
@@ -49,7 +58,7 @@ exports.initial_witnesses = !process.env.testnet ? [
 ];
 
 exports.initial_peers = [
-	process.env.testnet ? 'wss://hub1.xxx.com/bb-test' : 'wss://hub1.xxx.com/bb'
+//	process.env.testnet ? 'wss://hub1.xxx.com/bb-test' : 'wss://hub1.xxx.com/bb'
 ];
 
 exports.trustedRegistries = {
