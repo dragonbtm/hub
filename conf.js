@@ -27,7 +27,7 @@ exports.HEARTBEAT_TIMEOUT = 300*1000;
 
 exports.WS_PROTOCOL = 'ws://';
 
-exports.storage = 'mysql';
+exports.storage = 'sqlite';
 
 exports.database = {
 	host:"localhost",
@@ -40,7 +40,10 @@ exports.database = {
 exports.initial_witnesses = !process.env.testnet ? [
 		'WXNM4L4OTGIKSQHMMMBE6TUW6YJ4SHGY',
 		'J4LFUWCFCXLWNNCLGMVGQKXUOUULNPDW',
-		'DLVXBKXVNSOLGSXVAJBUYQUG5OEGWTV5'
+		'DLVXBKXVNSOLGSXVAJBUYQUG5OEGWTV5',
+		'JNR2E5BPXI576ZEVR5S5HVTYC6EZNDPW',
+		'SLNK5ISPUQRJX2VIMUTU7YHMNTGOWUEC',
+		'SDO4KLWIPLLKBWMW5FJSWBCWBHHOC2OI'
 ]
 : [
 	'2FF7PSL7FYXVU5UIQHCVDTTPUOOG75GX',
