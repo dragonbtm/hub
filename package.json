@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "apn": "^2.2.0",
-    "relay": "git+https://github.com/dragonbtm/relay.git",
+    "relay": "git+https://github.com/dragonbtm/relay.git#master-nofee",
     "request": "^2.81.0"
   }
 }
